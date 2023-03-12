@@ -1,0 +1,23 @@
+// {
+//   " compilerOptions":{
+//     "baseUrl":"srs"
+//   },
+//   "include": ["srs"]
+
+// }
+
+// {
+//     "compilerOptions": {
+//       "module": "commonjs",
+//       "target": "es6"
+//     },
+//     "exclude": ["node_modules"]
+//   }
+
+//   {
+//     "compilerOptions": {
+//       "module": "commonjs",
+//       "target": "es6"
+//     },
+//     "include": ["src/**/*"]
+//   }
