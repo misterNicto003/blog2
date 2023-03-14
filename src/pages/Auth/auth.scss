@@ -20,9 +20,58 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+
+    .auth_box_forgot {
+      color: $pink_900;
+      margin-bottom: 15px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+    }
   }
 
   .field {
     margin-bottom: 20px;
+  }
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+
+  &_box {
+    margin-top: 75px;
+    margin-bottom: 20px;
+
+    max-width: 396px;
+    width: 100%;
+
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid $gray_100;
+    border-radius: 5px;
+
+    // .heading {
+    //   margin-bottom: 30px;
+    // }
+
+    &_box_form {
+      display: flex;
+      border: 1px solid #000;
+    }
+  }
+  &_box_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .field ~ .field {
+    margin-top: 20px;
+  }
+
+  .btn {
+    margin-top: 34px;
+    margin-bottom: 24px;
   }
 }
