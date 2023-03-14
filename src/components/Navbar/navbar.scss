@@ -2,10 +2,12 @@
 
 .nav {
   background: #fff;
-  box-shadow: 0 2px 50px 0.1px #f0f0f0;
+  filter: drop-shadow(0px 2px 50px rgba(0, 0, 0, 0.15));
+  // box-shadow: 0 2px 50px 0.1px #f0f0f0;
 
   &_wrap {
     @include flex(center, space-between);
+
     height: 60px;
   }
   &_logo {
@@ -14,5 +16,14 @@
 
     background: $pink_900;
     border-radius: 50%;
+  }
+
+  &_auth {
+    display: flex;
+    gap: 20px;
+  }
+  &_user {
+    display: flex;
+    gap: 20px;
   }
 }

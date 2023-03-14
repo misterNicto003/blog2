@@ -5,7 +5,7 @@ import { NavAuth, NavUser } from "./";
 const Navbar = () => {
   const isAuth = false;
   return (
-    <div className="navbar">
+    <div className="nav">
       <div className="container">
         <div className="nav_wrap">
           <div className="nav_logo"></div>

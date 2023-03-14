@@ -1,5 +1,7 @@
-import React from "react";
 import { Button } from "../..";
+import "./navAuth.scss";
+
+import React from "react";
 
 const NavAuth = () => {
   return (

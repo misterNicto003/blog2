@@ -1,0 +1,26 @@
+@use "../../../sass/abstracts" as *;
+
+.btn {
+  @include flex(center, center);
+
+  display: flex;
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-weight: 400;
+  font-style: 14px;
+  line-height: 15px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &.solid {
+    background: $pink_900;
+    color: #fff;
+  }
+
+  &.outline {
+    background: transparent;
+    border: 1px solid $pink_900;
+    color: $pink_900;
+  }
+}
